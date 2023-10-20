@@ -40,7 +40,7 @@ body
 <tr><td>
     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1843031/widgets/720673"></iframe></td></tr>
 </html>
-  ''',height=620)
+  ''',height=700)
 with tab2:
   components.html(''' <html>
 <head>
@@ -78,4 +78,4 @@ body
     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1843031/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Sulphur+%28MQ135%29&type=line&xaxis=Time&yaxis=PPM"></iframe></td></tr>
 
 </html>
-''',height=620)
+''',height=700)
