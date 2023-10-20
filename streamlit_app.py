@@ -1,7 +1,8 @@
 import streamlit as st
+import streamlit.components.v1 as components 
 tab1,tab2 = st.tabs(['Current values', 'History'])
 with tab1:
-  st.markdown(f''' <html>
+  components.html(''' <html>
 <head>
 <title>Data Collection Dashboard</title>
 <style>
