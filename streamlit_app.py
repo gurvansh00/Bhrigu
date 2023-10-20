@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components 
+st.set_page_config(layout='wide')
 tab1,tab2 = st.tabs(['Current values', 'History'])
 with tab1:
   components.html(''' <html>
@@ -42,4 +43,4 @@ body
     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1843031/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Sulphur+%28MQ135%29&type=line&xaxis=Time&yaxis=PPM"></iframe></td></tr>
 
 </html>
-''')
+''',height=600,scroll=True)
